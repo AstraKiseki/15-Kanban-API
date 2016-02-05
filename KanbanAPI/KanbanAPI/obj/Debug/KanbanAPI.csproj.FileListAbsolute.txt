@@ -39,8 +39,11 @@ C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\Newtonsoft.Json.xml
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\System.Net.Http.Formatting.xml
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\System.Web.Http.xml
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\System.Web.Http.WebHost.xml
-C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\obj\Debug\KanbanAPI.csprojResolveAssemblyReference.cache
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\obj\Debug\KanbanAPI.dll
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\obj\Debug\KanbanAPI.pdb
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\AutoMapper.dll
 C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\AutoMapper.xml
+C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\obj\Debug\KanbanAPI.csprojResolveAssemblyReference.cache
+C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\System.Web.Cors.dll
+C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\System.Web.Http.Cors.dll
+C:\dev\origin\15-Kanban-API\KanbanAPI\KanbanAPI\bin\System.Web.Http.Cors.xml

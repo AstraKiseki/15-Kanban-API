@@ -42,7 +42,7 @@ namespace KanbanAPI.Controllers
                 return NotFound();
             }
 
-            return Ok(list);
+            return Ok(Mapper.Map<ListModel>(list));
         }
 
         // PUT: api/Lists/5

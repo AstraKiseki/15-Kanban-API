@@ -22,9 +22,19 @@ namespace KanbanAPI
     
         public virtual List List { get; set; }
 
+        public Card(CardModel model)
+        {
+            this.Update(model);
+            CreatedDate = DateTime.Now;
+        }
+
+        public Card()
+        { }
+
         public void Update(CardModel model)
         {
             Text = model.Text;
         }
+        // If this screws stuff up, it's my fault. - Mooney
     }
 }
