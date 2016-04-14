@@ -5,7 +5,7 @@ angular.module('kanban').controller('IndexController', function ($scope, $resour
     $scope.newList = {};
     $scope.newCard = {};
 
-    var ListResource = $resource(apiUrl + '/lists/:listId', { listId: '@id' }, {
+    var ListResource = $resource(apiUrl + '/lists/:listId', { listId: '@ListID' }, {
         'cards': {
             url: apiUrl + '/lists/:listId/cards',
             method: 'GET',
@@ -13,7 +13,7 @@ angular.module('kanban').controller('IndexController', function ($scope, $resour
         }
     });
 
-    var CardResource = $resource(apiUrl + '/cards/:listId', { listId: '@id' }, {
+    var CardResource = $resource(apiUrl + '/cards/:listId', { cardId: '@CardID' }, {
         'cards': {
             url: apiUrl + '/lists/:listId/cards',
             method: 'POST',
