@@ -17,15 +17,11 @@ namespace KanbanAPI.Controllers
     public class CardsController : ApiController
     {
         private KanbanEntities db = new KanbanEntities();
-
-
-
         // GET: api/Cards
         public IEnumerable<CardModel> GetCards()
         {
             return Mapper.Map<IEnumerable<CardModel>>(db.Cards);
         }
-
 
         // GET: api/Cards/5
         [ResponseType(typeof(CardModel))]

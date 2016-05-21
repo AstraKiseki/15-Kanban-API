@@ -9,6 +9,6 @@ namespace KanbanAPI.Models
     {
         public int ListID { get; set; }
         public string Name { get; set; }
-        public System.DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

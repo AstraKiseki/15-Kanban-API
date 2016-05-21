@@ -9,7 +9,7 @@ namespace KanbanAPI.Models
     {
         public int CardID { get; set; }
         public int ListID { get; set; }
-        public System.DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public string Text { get; set; }
     }
 }
